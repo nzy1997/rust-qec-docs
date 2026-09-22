@@ -5,7 +5,7 @@ evidence that are too large or too frequently regenerated for the main
 [`rust-qec`](https://github.com/nzy1997/rust-qec) source repository.
 
 The snapshot in this commit was exported from `rust-qec` commit
-`cb075cdb759c3f71e6cdc93cee021feef869136d` on 2026-09-21. The source
+`156eb625a722eb053d6a8e02086147600144f379` on 2026-09-22. The source
 repository contains the scripts and contracts that regenerate and verify these
 files; this repository contains only the published artifacts.
 
