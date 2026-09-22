@@ -1,7 +1,7 @@
 {
-  "source_commit": "156eb625a722eb053d6a8e02086147600144f379",
+  "source_commit": "a5815795568d51fa705eebd46511bb67fa1fee4b",
   "working_tree_dirty": false,
-  "input_digest": "ee918b12ffbd046bd2387a6912020856d674f5fc614e9a419b5d0817c2cd6375",
+  "input_digest": "28c3e0d28e003d8c00606da3934c3f923920e40a2a3448e624ad241f04554066",
   "started_utc": "2026-09-22T00:41:33.870680+00:00",
   "command": [
     "/home/nzy/codex/rust-qec-evidence-rewrite-20260922-run4/benchmarks/atom_loss/evidence_run.py",

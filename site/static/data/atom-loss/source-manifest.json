@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_commit": "156eb625a722eb053d6a8e02086147600144f379",
+  "source_commit": "a5815795568d51fa705eebd46511bb67fa1fee4b",
   "working_tree_dirty": false,
   "inputs": {
     ".github/workflows/atom-loss-reference.yml": {
@@ -97,7 +97,7 @@
     },
     "benchmarks/atom_loss/readiness/resources/manifest.json": {
       "mode": "100644",
-      "git_blob": "fe02644b08953683175d4b5b131a17725b1a62e8"
+      "git_blob": "cc25622f6dbda087b26fbd012a3b6a7c72448574"
     },
     "benchmarks/atom_loss/readiness/resources/raw/fail-mle-candidate-limit.json": {
       "mode": "100644",
@@ -3108,7 +3108,7 @@
       "git_blob": "744fef173e94e76704a1e86265093ceb464a2fab"
     }
   },
-  "input_digest": "ee918b12ffbd046bd2387a6912020856d674f5fc614e9a419b5d0817c2cd6375",
+  "input_digest": "28c3e0d28e003d8c00606da3934c3f923920e40a2a3448e624ad241f04554066",
   "build_commands": [
     [
       "cargo",
