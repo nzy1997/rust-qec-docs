@@ -16,7 +16,7 @@
       "runs": [
         {
           "status": "ok",
-          "process_wall_seconds": 0.013684178004041314,
+          "process_wall_seconds": 0.013858208010788076,
           "exit_code": 0,
           "stats": {
             "schema_version": "rustqec.decode-stats.v1",
@@ -24,8 +24,8 @@
             "circuit_sha256": "45525ca2301befd56fecd33702e2934b91446dd3058fee1e5c4355fbd7c953c9",
             "shot_count": 5000,
             "attempted_shot_count": 5000,
-            "compile_seconds": 0.001047164,
-            "decode_seconds": 0.009641905,
+            "compile_seconds": 0.001024084,
+            "decode_seconds": 0.00730475,
             "distinct_loss_patterns": 193,
             "distinct_loss_patterns_exact": true,
             "cache_hits": 4807,
@@ -42,7 +42,7 @@
         },
         {
           "status": "ok",
-          "process_wall_seconds": 0.014640857007179875,
+          "process_wall_seconds": 0.015007458001491614,
           "exit_code": 0,
           "stats": {
             "schema_version": "rustqec.decode-stats.v1",
@@ -50,8 +50,8 @@
             "circuit_sha256": "45525ca2301befd56fecd33702e2934b91446dd3058fee1e5c4355fbd7c953c9",
             "shot_count": 5000,
             "attempted_shot_count": 5000,
-            "compile_seconds": 0.001129762,
-            "decode_seconds": 0.009667217,
+            "compile_seconds": 0.001032292,
+            "decode_seconds": 0.0078685,
             "distinct_loss_patterns": 193,
             "distinct_loss_patterns_exact": true,
             "cache_hits": 4807,
@@ -68,7 +68,7 @@
         },
         {
           "status": "ok",
-          "process_wall_seconds": 0.014502049998554867,
+          "process_wall_seconds": 0.014542083008564077,
           "exit_code": 0,
           "stats": {
             "schema_version": "rustqec.decode-stats.v1",
@@ -76,8 +76,8 @@
             "circuit_sha256": "45525ca2301befd56fecd33702e2934b91446dd3058fee1e5c4355fbd7c953c9",
             "shot_count": 5000,
             "attempted_shot_count": 5000,
-            "compile_seconds": 0.001052477,
-            "decode_seconds": 0.009597701,
+            "compile_seconds": 0.001009,
+            "decode_seconds": 0.007412041,
             "distinct_loss_patterns": 193,
             "distinct_loss_patterns_exact": true,
             "cache_hits": 4807,
@@ -102,64 +102,64 @@
       ],
       "prediction_sha256": "e3e7c085eb01cbce2dcce437779c72a0bc88880dc670591ad4134ad7e47d4f4b",
       "total_seconds": [
-        0.010689068999999999,
-        0.010796979,
-        0.010650178
+        0.008328834,
+        0.008900792000000001,
+        0.008421041
       ]
     },
     "pymatching-fixed": {
       "status": "ok",
       "runs": [
         {
-          "decode_seconds": 0.002839068001776468,
-          "topology_seconds": 0.0004061409999849275,
-          "preprocess_seconds": 0.0017085759973269887,
-          "graph_build_seconds": 0.00015772700135130435,
-          "matching_seconds": 0.0003936869979952462,
-          "output_seconds": 0.00017090100300265476,
-          "adapter_overhead_seconds": 2.0360021153464913e-06,
+          "decode_seconds": 0.002520458001527004,
+          "topology_seconds": 0.0003181669890182093,
+          "preprocess_seconds": 0.0015913330134935677,
+          "graph_build_seconds": 9.26670036278665e-05,
+          "matching_seconds": 0.00032479100627824664,
+          "output_seconds": 0.0001924579992191866,
+          "adapter_overhead_seconds": 1.0419898899272084e-06,
           "graph_builds": 1,
           "batch_calls": 1,
           "graph_api": "from_check_matrix",
           "execution": "batch fixed graph",
-          "compile_seconds": 0.001076774,
-          "transform_seconds": 0.004775928,
+          "compile_seconds": 0.001023959,
+          "transform_seconds": 0.0034105,
           "export_repetition": 0,
-          "write_seconds": 8.891500328900293e-05
+          "write_seconds": 0.00011133300722576678
         },
         {
-          "decode_seconds": 0.002614634002384264,
-          "topology_seconds": 0.0003262050013290718,
-          "preprocess_seconds": 0.0016255570008070208,
-          "graph_build_seconds": 0.00012755199713865295,
-          "matching_seconds": 0.0003499079975881614,
-          "output_seconds": 0.00018382300186203793,
-          "adapter_overhead_seconds": 1.5890036593191326e-06,
+          "decode_seconds": 0.0025649160088505596,
+          "topology_seconds": 0.0003479160077404231,
+          "preprocess_seconds": 0.001584792000357993,
+          "graph_build_seconds": 8.954199438448995e-05,
+          "matching_seconds": 0.0003213749878341332,
+          "output_seconds": 0.0002202909963671118,
+          "adapter_overhead_seconds": 1.0000221664085984e-06,
           "graph_builds": 1,
           "batch_calls": 1,
           "graph_api": "from_check_matrix",
           "execution": "batch fixed graph",
-          "compile_seconds": 0.001038518,
-          "transform_seconds": 0.004788717,
+          "compile_seconds": 0.001013458,
+          "transform_seconds": 0.003413375,
           "export_repetition": 1,
-          "write_seconds": 0.00010263000149279833
+          "write_seconds": 0.00013995800691191107
         },
         {
-          "decode_seconds": 0.0027810669998871163,
-          "topology_seconds": 0.0003916909990948625,
-          "preprocess_seconds": 0.0016588939979556017,
-          "graph_build_seconds": 0.00015669799904571846,
-          "matching_seconds": 0.00037024100311100483,
-          "output_seconds": 0.00020109600154682994,
-          "adapter_overhead_seconds": 2.4469991330988705e-06,
+          "decode_seconds": 0.0026355819863965735,
+          "topology_seconds": 0.00036524998722597957,
+          "preprocess_seconds": 0.00159441601135768,
+          "graph_build_seconds": 9.124999633058906e-05,
+          "matching_seconds": 0.0003292079927632585,
+          "output_seconds": 0.00025437500153202564,
+          "adapter_overhead_seconds": 1.0829971870407462e-06,
           "graph_builds": 1,
           "batch_calls": 1,
           "graph_api": "from_check_matrix",
           "execution": "batch fixed graph",
-          "compile_seconds": 0.001095881,
-          "transform_seconds": 0.005012231,
+          "compile_seconds": 0.001001625,
+          "transform_seconds": 0.003389167,
           "export_repetition": 2,
-          "write_seconds": 0.00010599000233924016
+          "write_seconds": 0.00017229099466931075
         }
       ],
       "errors": 28,
@@ -171,9 +171,9 @@
       ],
       "prediction_sha256": "24d1b0118bd6dfca5b2c225af3431ac85d83d2e1af0ee231924605b18eb5da1c",
       "total_seconds": [
-        0.008691770001776468,
-        0.008441869002384264,
-        0.008889178999887115
+        0.006954917001527004,
+        0.006991749008850559,
+        0.007026373986396573
       ],
       "disagreements_with_native": 13,
       "paired_native_only_wrong": 0,
@@ -183,55 +183,55 @@
       "status": "ok",
       "runs": [
         {
-          "decode_seconds": 0.01152069699310232,
-          "topology_seconds": 0.00033285099925706163,
-          "preprocess_seconds": 0.0025012549886014313,
-          "graph_build_seconds": 0.005860034012584947,
-          "matching_seconds": 0.002409686981991399,
-          "output_seconds": 0.00033892896317411214,
-          "adapter_overhead_seconds": 7.794104749336839e-05,
+          "decode_seconds": 0.00871566598652862,
+          "topology_seconds": 0.0002999170101247728,
+          "preprocess_seconds": 0.002166174876037985,
+          "graph_build_seconds": 0.004041999971377663,
+          "matching_seconds": 0.0018640501657500863,
+          "output_seconds": 0.00030684698140248656,
+          "adapter_overhead_seconds": 3.6676981835626066e-05,
           "graph_builds": 193,
           "batch_calls": 193,
           "graph_api": "from_check_matrix",
           "execution": "batch grouped by loss pattern",
-          "compile_seconds": 0.001047359,
-          "transform_seconds": 0.004815239,
+          "compile_seconds": 0.001022584,
+          "transform_seconds": 0.003416333,
           "export_repetition": 0,
-          "write_seconds": 8.236699795816094e-05
+          "write_seconds": 0.00011645798804238439
         },
         {
-          "decode_seconds": 0.011625308005022816,
-          "topology_seconds": 0.0003226810003980063,
-          "preprocess_seconds": 0.0025440330573474057,
-          "graph_build_seconds": 0.005899732997932006,
-          "matching_seconds": 0.0023439529904862866,
-          "output_seconds": 0.0004333769538789056,
-          "adapter_overhead_seconds": 8.153100498020649e-05,
+          "decode_seconds": 0.008920748994569294,
+          "topology_seconds": 0.00031158300407696515,
+          "preprocess_seconds": 0.0022107471304479986,
+          "graph_build_seconds": 0.0041719940199982375,
+          "matching_seconds": 0.0018746290006674826,
+          "output_seconds": 0.0003123039205092937,
+          "adapter_overhead_seconds": 3.949191886931658e-05,
           "graph_builds": 193,
           "batch_calls": 193,
           "graph_api": "from_check_matrix",
           "execution": "batch grouped by loss pattern",
-          "compile_seconds": 0.000977943,
-          "transform_seconds": 0.004736908,
+          "compile_seconds": 0.001012208,
+          "transform_seconds": 0.003423667,
           "export_repetition": 1,
-          "write_seconds": 0.00016335600230377167
+          "write_seconds": 0.00011833300231955945
         },
         {
-          "decode_seconds": 0.01108209599624388,
-          "topology_seconds": 0.0003497180005069822,
-          "preprocess_seconds": 0.0025044440480996855,
-          "graph_build_seconds": 0.005580427045060787,
-          "matching_seconds": 0.0022384649273590185,
-          "output_seconds": 0.00033291400905000046,
-          "adapter_overhead_seconds": 7.612796616740525e-05,
+          "decode_seconds": 0.009409666017745622,
+          "topology_seconds": 0.0003481250023469329,
+          "preprocess_seconds": 0.00231579014507588,
+          "graph_build_seconds": 0.004313831115723588,
+          "matching_seconds": 0.001964101946214214,
+          "output_seconds": 0.0004262139700585976,
+          "adapter_overhead_seconds": 4.160383832640946e-05,
           "graph_builds": 193,
           "batch_calls": 193,
           "graph_api": "from_check_matrix",
           "execution": "batch grouped by loss pattern",
-          "compile_seconds": 0.00112429,
-          "transform_seconds": 0.007267757,
+          "compile_seconds": 0.001024459,
+          "transform_seconds": 0.003463708,
           "export_repetition": 2,
-          "write_seconds": 8.973499643616378e-05
+          "write_seconds": 0.00022633300977759063
         }
       ],
       "errors": 15,
@@ -243,9 +243,9 @@
       ],
       "prediction_sha256": "e3e7c085eb01cbce2dcce437779c72a0bc88880dc670591ad4134ad7e47d4f4b",
       "total_seconds": [
-        0.01738329499310232,
-        0.017340159005022816,
-        0.01947414299624388
+        0.01315458298652862,
+        0.013356623994569293,
+        0.013897833017745621
       ],
       "disagreements_with_native": 0,
       "paired_native_only_wrong": 0,
@@ -257,22 +257,22 @@
         {
           "status": "ok",
           "exit_code": 0,
-          "process_wall_seconds": 0.03243333700083895,
+          "process_wall_seconds": 0.07148512500862125,
           "batch": {
-            "batch_overhead_seconds": 0.000572626999999999,
+            "batch_overhead_seconds": 0.0005055580000000004,
             "boundary": "JSON transport excluded; grouping, graph build, batch decode, reorder, b8 write and flush included; no fsync",
-            "decode_seconds": 0.002819758,
-            "graph_build_seconds": 0.0014166440000000005,
+            "decode_seconds": 0.002454083,
+            "graph_build_seconds": 0.0012887820000000003,
             "graph_builds": 193,
-            "matching_seconds": 0.0007851910000000004,
+            "matching_seconds": 0.0005866599999999995,
             "policy": "offline groups; one graph per pattern",
             "shots": 5000,
-            "write_seconds": 4.5296e-05
+            "write_seconds": 7.3083e-05
           },
-          "transform_seconds": 0.004741374,
+          "transform_seconds": 0.003453125,
           "stats": {
-            "compile_seconds": 0.001062608,
-            "decode_seconds": 0.007561132,
+            "compile_seconds": 0.000996625,
+            "decode_seconds": 0.005907208000000001,
             "attempted_shot_count": 5000,
             "timeout_count": 0,
             "infeasible_shot_count": 0,
@@ -283,22 +283,22 @@
         {
           "status": "ok",
           "exit_code": 0,
-          "process_wall_seconds": 0.035089028999209404,
+          "process_wall_seconds": 0.08571920800022781,
           "batch": {
-            "batch_overhead_seconds": 0.0005511029999999998,
+            "batch_overhead_seconds": 0.0004998230000000016,
             "boundary": "JSON transport excluded; grouping, graph build, batch decode, reorder, b8 write and flush included; no fsync",
-            "decode_seconds": 0.002782884,
-            "graph_build_seconds": 0.0014086409999999998,
+            "decode_seconds": 0.002512125,
+            "graph_build_seconds": 0.001331382999999999,
             "graph_builds": 193,
-            "matching_seconds": 0.0007738750000000003,
+            "matching_seconds": 0.0006036269999999996,
             "policy": "offline groups; one graph per pattern",
             "shots": 5000,
-            "write_seconds": 4.9265e-05
+            "write_seconds": 7.7292e-05
           },
-          "transform_seconds": 0.004764019,
+          "transform_seconds": 0.003443791,
           "stats": {
-            "compile_seconds": 0.001073187,
-            "decode_seconds": 0.007546903000000001,
+            "compile_seconds": 0.000998875,
+            "decode_seconds": 0.005955916,
             "attempted_shot_count": 5000,
             "timeout_count": 0,
             "infeasible_shot_count": 0,
@@ -309,22 +309,22 @@
         {
           "status": "ok",
           "exit_code": 0,
-          "process_wall_seconds": 0.03234388300188584,
+          "process_wall_seconds": 0.0708424170006765,
           "batch": {
-            "batch_overhead_seconds": 0.0006035439999999995,
+            "batch_overhead_seconds": 0.0004882879999999998,
             "boundary": "JSON transport excluded; grouping, graph build, batch decode, reorder, b8 write and flush included; no fsync",
-            "decode_seconds": 0.002783384,
-            "graph_build_seconds": 0.0013433030000000003,
+            "decode_seconds": 0.002493708,
+            "graph_build_seconds": 0.0013072960000000003,
             "graph_builds": 193,
-            "matching_seconds": 0.0007808860000000001,
+            "matching_seconds": 0.0005957899999999997,
             "policy": "offline groups; one graph per pattern",
             "shots": 5000,
-            "write_seconds": 5.5651e-05
+            "write_seconds": 0.000102334
           },
-          "transform_seconds": 0.007421502,
+          "transform_seconds": 0.003468417,
           "stats": {
-            "compile_seconds": 0.00126983,
-            "decode_seconds": 0.010204886,
+            "compile_seconds": 0.001032542,
+            "decode_seconds": 0.005962125,
             "attempted_shot_count": 5000,
             "timeout_count": 0,
             "infeasible_shot_count": 0,
@@ -334,9 +334,9 @@
         }
       ],
       "total_seconds": [
-        0.00862374,
-        0.00862009,
-        0.011474716
+        0.006903833000000001,
+        0.006954791,
+        0.006994667
       ],
       "errors": 15,
       "shots": 5000,
@@ -352,7 +352,7 @@
       "runs": [
         {
           "status": "ok",
-          "process_wall_seconds": 15.12434343300265,
+          "process_wall_seconds": 9.959119457998895,
           "exit_code": 0,
           "stats": {
             "schema_version": "rustqec.decode-stats.v1",
@@ -360,8 +360,8 @@
             "circuit_sha256": "45525ca2301befd56fecd33702e2934b91446dd3058fee1e5c4355fbd7c953c9",
             "shot_count": 5000,
             "attempted_shot_count": 5000,
-            "compile_seconds": 0.002267949,
-            "decode_seconds": 15.111300014,
+            "compile_seconds": 0.002566833,
+            "decode_seconds": 9.949354792,
             "distinct_loss_patterns": 193,
             "distinct_loss_patterns_exact": true,
             "cache_hits": 4807,
@@ -378,7 +378,7 @@
         },
         {
           "status": "ok",
-          "process_wall_seconds": 15.380528852998395,
+          "process_wall_seconds": 10.017084666993469,
           "exit_code": 0,
           "stats": {
             "schema_version": "rustqec.decode-stats.v1",
@@ -386,8 +386,8 @@
             "circuit_sha256": "45525ca2301befd56fecd33702e2934b91446dd3058fee1e5c4355fbd7c953c9",
             "shot_count": 5000,
             "attempted_shot_count": 5000,
-            "compile_seconds": 0.002245849,
-            "decode_seconds": 15.365883844,
+            "compile_seconds": 0.002547208,
+            "decode_seconds": 10.006793542,
             "distinct_loss_patterns": 193,
             "distinct_loss_patterns_exact": true,
             "cache_hits": 4807,
@@ -404,7 +404,7 @@
         },
         {
           "status": "ok",
-          "process_wall_seconds": 15.030842262996885,
+          "process_wall_seconds": 9.950682499998948,
           "exit_code": 0,
           "stats": {
             "schema_version": "rustqec.decode-stats.v1",
@@ -412,8 +412,8 @@
             "circuit_sha256": "45525ca2301befd56fecd33702e2934b91446dd3058fee1e5c4355fbd7c953c9",
             "shot_count": 5000,
             "attempted_shot_count": 5000,
-            "compile_seconds": 0.002350842,
-            "decode_seconds": 15.017854295,
+            "compile_seconds": 0.002559,
+            "decode_seconds": 9.940899166,
             "distinct_loss_patterns": 193,
             "distinct_loss_patterns_exact": true,
             "cache_hits": 4807,
@@ -438,40 +438,40 @@
       ],
       "prediction_sha256": "78bb63422e980bad63c17dede75ec4cb21e2591a812ee16fc6a8258ff253beb3",
       "total_seconds": [
-        15.113567963,
-        15.368129693,
-        15.020205137
+        9.951921624999999,
+        10.00934075,
+        9.943458166
       ]
     },
     "pymatching-fixed-loop": {
       "status": "ok",
       "runs": [
         {
-          "decode_seconds": 0.02153918800468091,
+          "decode_seconds": 0.016386875009629875,
           "graph_builds": 1,
           "cache_hits": 4999,
-          "compile_seconds": 0.001072865,
-          "transform_seconds": 0.004812924,
+          "compile_seconds": 0.001015792,
+          "transform_seconds": 0.003372125,
           "export_repetition": 0,
-          "write_seconds": 0.00010967600246658549
+          "write_seconds": 0.00011700000322889537
         },
         {
-          "decode_seconds": 0.02575836900359718,
+          "decode_seconds": 0.016285709003568627,
           "graph_builds": 1,
           "cache_hits": 4999,
-          "compile_seconds": 0.001074351,
-          "transform_seconds": 0.004706457,
+          "compile_seconds": 0.001019917,
+          "transform_seconds": 0.003465625,
           "export_repetition": 1,
-          "write_seconds": 0.00014538600225932896
+          "write_seconds": 0.00016079199849627912
         },
         {
-          "decode_seconds": 0.02211129500210518,
+          "decode_seconds": 0.016300624993164092,
           "graph_builds": 1,
           "cache_hits": 4999,
-          "compile_seconds": 0.001060447,
-          "transform_seconds": 0.005017664,
+          "compile_seconds": 0.001015875,
+          "transform_seconds": 0.003455917,
           "export_repetition": 2,
-          "write_seconds": 0.00011043700214941055
+          "write_seconds": 0.00013420799223240465
         }
       ],
       "errors": 28,
@@ -483,9 +483,9 @@
       ],
       "prediction_sha256": "24d1b0118bd6dfca5b2c225af3431ac85d83d2e1af0ee231924605b18eb5da1c",
       "total_seconds": [
-        0.027424977004680908,
-        0.03153917700359718,
-        0.02818940600210518
+        0.020774792009629874,
+        0.02077125100356863,
+        0.020772416993164095
       ],
       "disagreements_with_native": 13,
       "paired_native_only_wrong": 0,
@@ -494,8 +494,8 @@
   },
   "graph": {
     "source": "public dataset only; graph/compiler shared with RustQEC",
-    "compile_seconds": 0.001084212,
-    "transform_seconds": 0.004801077,
+    "compile_seconds": 0.001006333,
+    "transform_seconds": 0.003380834,
     "num_observables": 1,
     "edges": 244,
     "detectors": 16,

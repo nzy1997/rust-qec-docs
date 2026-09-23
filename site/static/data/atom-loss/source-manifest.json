@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_commit": "a5815795568d51fa705eebd46511bb67fa1fee4b",
+  "source_commit": "23a112e1c8d6eea0fc3a9b0c2af7e415ac36c73c",
   "working_tree_dirty": false,
   "inputs": {
     ".github/workflows/atom-loss-reference.yml": {
@@ -1817,7 +1817,7 @@
     },
     "rstim/README.md": {
       "mode": "100644",
-      "git_blob": "ae33ab3d60bd8bc766364d5f3b81b6f5a2c73aa6"
+      "git_blob": "08be91c23c8903a7848d5b98de3b41880918079a"
     },
     "rstim/assets/shot-viewer/app.js": {
       "mode": "100644",
@@ -1862,6 +1862,10 @@
     "rstim/doc/getting_started.md": {
       "mode": "100644",
       "git_blob": "265c871b26c5f0a43539401630924530f2a61fc5"
+    },
+    "rstim/doc/near-clifford.md": {
+      "mode": "100644",
+      "git_blob": "5adb2a08fd86559eb8f5de75264004635dccda59"
     },
     "rstim/doc/performance_parity.md": {
       "mode": "100644",
@@ -2703,6 +2707,10 @@
       "mode": "100644",
       "git_blob": "951944be7df82d72b984df87db003982f5207ffe"
     },
+    "rstim/tests/near_clifford_oracle.rs": {
+      "mode": "100644",
+      "git_blob": "6ea2d8ed1220fe574dbcfc1e0ea8fbaf302cc9c5"
+    },
     "rstim/tests/noise.rs": {
       "mode": "100644",
       "git_blob": "f6d6a9f05374576fd73d1cee0b8176b08c0803fd"
@@ -2939,6 +2947,10 @@
       "mode": "100644",
       "git_blob": "9535d1547e85e79b9d1bb62b83ed3ecc87a12e73"
     },
+    "rstim/tests/support/near_clifford_oracle.rs": {
+      "mode": "100644",
+      "git_blob": "a20e90f645694c5c3baa7410d35926f4c9851807"
+    },
     "rstim/tests/sweep.rs": {
       "mode": "100644",
       "git_blob": "411fc85774bed6b0857e11cfe1b297f3b0b8842f"
@@ -3108,7 +3120,7 @@
       "git_blob": "744fef173e94e76704a1e86265093ceb464a2fab"
     }
   },
-  "input_digest": "28c3e0d28e003d8c00606da3934c3f923920e40a2a3448e624ad241f04554066",
+  "input_digest": "f65dbd5dbe6ec1a0d8952f0d9701e04558985f24bcd07119f789159d1a6b15de",
   "build_commands": [
     [
       "cargo",
@@ -3141,24 +3153,23 @@
   ],
   "build_policy": "isolated-cargo-home; allowlisted-environment; no-external-ancestor-config-v3",
   "binaries": {
-    "target/release/rustqec": "f2d2b0cf0dd6e2bdd9061851d2f69233ee0bad802284473b65ec9a52b7945480",
-    "target/release/examples/export_matching_benchmark": "9afa89925996b2cbe5fb9da3e7f40e89cc328fe38436c10d8f5a3b5de4a778ef",
-    "target/release/examples/export_decoder_oracle": "f6256e2d307826bc9e81810977910d666a6cba84acbee457f46309b91f84e960",
-    "target/release/examples/offline_matching_benchmark": "58b2853fac27adf058895947e64f96979efcfb7a6e9380335b7cb0835532a19b",
-    "target/release/examples/atom_loss_sampling_benchmark": "f4c2a8a3d005e3be509d8418d2e125e35f5f218c79e9a244dc46b6ef0dd995e4"
+    "target/release/rustqec": "57e429f7ca393ecb6b277442401ab512409119adb40e1eb6cb8c9e45230befe3",
+    "target/release/examples/export_matching_benchmark": "1d7917ebc43ac7f8d8048db5faa5ba388ca06ab1cee57ded1bbc20edea7a4d73",
+    "target/release/examples/export_decoder_oracle": "bd85ad89de61f82bf0ca6f27ef0030d195b139c691dc20854be1ff06a46cefcd",
+    "target/release/examples/offline_matching_benchmark": "c0acbf606ca88bae467ee3e0ee788b701e35c45d175cf21e1d910fc00cdbf6b5",
+    "target/release/examples/atom_loss_sampling_benchmark": "3149748ce489de607eb14023aba6aa02f557684a4e77b26888738702b8302610"
   },
   "build_environment": {
-    "PATH": "/home/nzy/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-21.0.3.9-hotspot/bin:/mnt/c/Program Files/Microsoft/jdk-17.0.9.8-hotspot/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Users/TEMP.OMEN9PLUS.004/AppData/Local/Microsoft/WindowsApps",
-    "HOME": "/home/nzy",
-    "LIBCLANG_PATH": "/home/nzy/codex/rust-qec-python-deps-20260922/clang/native",
-    "PYTHONPATH": "/home/nzy/codex/rust-qec-python-deps-20260922",
-    "CARGO_HOME": "/home/nzy/codex/rust-qec-evidence-work-20260922-run4/cargo-home",
+    "PATH": "/Users/nzy/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/TeX/texbin:/opt/homebrew/bin:/Users/nzy/.codex/tmp/arg0/codex-arg03g0zh1:/Users/nzy/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/Users/nzy/.kimi-code/bin:/Users/nzy/.juliaup/bin:/Users/nzy/.local/bin:/Users/nzy/.local/gurobi1302/Library/gurobi1302/macos_universal2/bin:/Users/nzy/.local/typst-cli/bin:/opt/homebrew/sbin:/Users/nzy/.cargo/bin:/Users/nzy/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Applications/ChatGPT.app/Contents/Resources",
+    "HOME": "/Users/nzy",
+    "TMPDIR": "/var/folders/dn/vkst__210t7dsflfgbt4f4n40000gn/T/",
+    "CARGO_HOME": "/private/tmp/issue739-evidence-work-pr1/cargo-home",
     "LANG": "C",
     "LC_ALL": "C",
     "OMP_NUM_THREADS": "1",
     "OPENBLAS_NUM_THREADS": "1",
     "RAYON_NUM_THREADS": "1"
   },
-  "rustc": "rustc 1.98.0 (88d9e12ae 2026-08-18)\nbinary: rustc\ncommit-hash: 88d9e12ae178fab0fb5cc050a94da85685d449ea\ncommit-date: 2026-08-18\nhost: x86_64-unknown-linux-gnu\nrelease: 1.98.0\nLLVM version: 22.1.8\n",
-  "cargo": "cargo 1.98.0 (797e8a9bc 2026-08-05)\n"
+  "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11) (Homebrew)\nbinary: rustc\ncommit-hash: 01f6ddf7588f42ae2d7eb0a2f21d44e8e96674cf\ncommit-date: 2026-02-11\nhost: aarch64-apple-darwin\nrelease: 1.93.1\nLLVM version: 21.1.8\n",
+  "cargo": "cargo 1.93.1 (Homebrew)\n"
 }
