@@ -1,25 +1,25 @@
 {
-  "source_commit": "e1432f8ea5ce11606a8f80ec10523895f30dab8f",
+  "source_commit": "2b00b3079435182d0d0a8bd15308dc1b2772cfdd",
   "working_tree_dirty": false,
-  "input_digest": "191952132556741154f1e8e8080fdaa792ab4e5a828fb6814689e4c0dd8c4e58",
-  "started_utc": "2026-09-23T05:31:02.086227+00:00",
+  "input_digest": "d15321bdd130f3350249f93197570769c57e6ea7c75c7a10af8cefee3261e33a",
+  "started_utc": "2026-09-23T05:32:13.341318+00:00",
   "command": [
-    "/private/tmp/issue739-evidence-pr4/benchmarks/atom_loss/accuracy_seeds.py",
+    "/private/tmp/issue739-evidence-pr5/benchmarks/atom_loss/accuracy_seeds.py",
     "--work",
-    "/private/tmp/issue739-evidence-work-pr4-final/seeds",
+    "/private/tmp/issue739-evidence-work-pr5-final/seeds",
     "--out",
-    "/private/tmp/issue739-evidence-out-pr4-final"
+    "/private/tmp/issue739-evidence-out-pr5-final"
   ],
   "os": "macOS-27.0-arm64-arm-64bit",
   "cpu": "Apple M4",
   "python": "3.12.13 (main, Mar  3 2026, 15:35:03) [Clang 21.1.4 ]",
   "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11) (Homebrew)\nbinary: rustc\ncommit-hash: 01f6ddf7588f42ae2d7eb0a2f21d44e8e96674cf\ncommit-date: 2026-02-11\nhost: aarch64-apple-darwin\nrelease: 1.93.1\nLLVM version: 21.1.8\n",
   "binaries": {
-    "target/release/rustqec": "b7814e5cbde45a801f559694912104cfd81a3cd3dbb0479647f7253b6a338416",
-    "target/release/examples/export_matching_benchmark": "0492b4573e3bdd39ae911f2dedc906a2218e40757e0b3fea7e7c85b4e475be65",
-    "target/release/examples/export_decoder_oracle": "15381727d0019d0813809ca8bf66a705823cab4f16f1b0b6095ff0526e29687b",
-    "target/release/examples/offline_matching_benchmark": "9415b311fc8005d882fc9c45a6ebe9011fca5e0364119f4bddee0d8c75f17bca",
-    "target/release/examples/atom_loss_sampling_benchmark": "583744e5d134e545cecd2e49250c5a51ac6aecb2c0893bedfdbad7b60ba53769"
+    "target/release/rustqec": "160aa300755e49049fb1cbe0e678c0e8b106dbd74910385316da655997380058",
+    "target/release/examples/export_matching_benchmark": "57fb5722866478d455c8ea7c0c143e600a5b9b3a56c6221c4ed04687be44b96f",
+    "target/release/examples/export_decoder_oracle": "560dbdb87f5e9509e43c3cd0b768c2daf0d182e2e27ffa9de19dbcb12974df0d",
+    "target/release/examples/offline_matching_benchmark": "9ac12f06b6683cbc663812114503aab06bdd9e00a5674ab953030fb7c4a1501a",
+    "target/release/examples/atom_loss_sampling_benchmark": "78bdb061e20861586d31a3412f6404bbc247751d3f2897b228689e9642958368"
   },
   "dependencies": {
     "stim": "1.16.0",
@@ -54,7 +54,7 @@
     "benchmarks/atom_loss/plot.py": "2e36632a15287701f71c3aaa4bf4254911c5bbb4a78460d0a1ad4e5824534d5e",
     "benchmarks/atom_loss/probe_specs.py": "e0670a655d47975d5f2ba4f26a036f0908f5440ae81bb7792803807ccd10ad2c",
     "benchmarks/atom_loss/publish.py": "fc0b2b1bdd92f1aea7466c5c93392b1f9a13a4ce0139f5a0ce396f536db1df39",
-    "benchmarks/atom_loss/readiness/resources/report.md": "0ee7f61657591942dbfba4edbd259810b126c0aeb178e34a67f4b01d85c3dc52",
+    "benchmarks/atom_loss/readiness/resources/report.md": "c7c08a9eb5e218c4ff299f40550dd630f2fd501b5d69a0fc1e7e28d24cd55e9b",
     "benchmarks/atom_loss/readiness_correctness.py": "2caf93c4a9eb7cfd45ccf7681eaadafdc286dbc5fb9a4164382c517180b3a491",
     "benchmarks/atom_loss/readiness_resources.py": "796f4f58da41563c187faefb2e0ac5b6e6ec78fcbb3a6ef790fbadbfc47b1d2f",
     "benchmarks/atom_loss/reference.py": "5466f849afa6fe5bcb398a425248defe03af6f06e722da90f3c268e98bb06396",
