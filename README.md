@@ -4,8 +4,8 @@ This repository stores generated documentation-site assets and benchmark
 evidence that are too large or too frequently regenerated for the main
 [`rust-qec`](https://github.com/nzy1997/rust-qec) source repository.
 
-The snapshot in this commit was exported from `rust-qec` commit
-`156eb625a722eb053d6a8e02086147600144f379` on 2026-09-22. The source
+Each evidence bundle records its measured source commit and input inventory;
+for atom-loss, see `site/static/data/atom-loss/source-manifest.json`. The source
 repository contains the scripts and contracts that regenerate and verify these
 files; this repository contains only the published artifacts.
 
