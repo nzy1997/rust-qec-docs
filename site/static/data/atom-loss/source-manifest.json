@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_commit": "3150140ed3b77b529ad160ad6f033afb93aebd68",
+  "source_commit": "3089d04a1ba73759a0920ba71151478fb492063d",
   "working_tree_dirty": false,
   "inputs": {
     ".github/workflows/atom-loss-reference.yml": {
@@ -97,91 +97,91 @@
     },
     "benchmarks/atom_loss/readiness/resources/manifest.json": {
       "mode": "100644",
-      "git_blob": "e82bcac39a307e172f828d8b66d33ffdcac2d407"
+      "git_blob": "b2bf8d9327e19482f2fb0f8b5ff62f87a7bed9c8"
     },
     "benchmarks/atom_loss/readiness/resources/raw/fail-mle-candidate-limit.json": {
       "mode": "100644",
-      "git_blob": "997677c5670157f450487382bc8e70ffaab93398"
+      "git_blob": "5a8a55f205d5618fa2c6a8c754a04a911e72f4f3"
     },
     "benchmarks/atom_loss/readiness/resources/raw/fail-mle-infeasible.json": {
       "mode": "100644",
-      "git_blob": "86c639539439d185ec1d97ec52309f7202eaeee3"
+      "git_blob": "2fe9d97994bf8f8ab7053dd4f8f745ca7d353445"
     },
     "benchmarks/atom_loss/readiness/resources/raw/fail-mle-solve-timeout.json": {
       "mode": "100644",
-      "git_blob": "d2f36b623fc91b89c1af37d1bf040731bd696f71"
+      "git_blob": "a58b10347d7ce49ea17f777eed203d8de50d3529"
     },
     "benchmarks/atom_loss/readiness/resources/raw/fail-stale-output-overwrite.json": {
       "mode": "100644",
-      "git_blob": "22e434b1c209f733668374ad14b5cb19a0587858"
+      "git_blob": "b316f9514ef3d2e63aa5fb4a5f04fe9b264d1c90"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p002-b1024.json": {
       "mode": "100644",
-      "git_blob": "18b0f3c6fddb2b3fc47c3a704f6eed4c234f7d50"
+      "git_blob": "58d03bd6182020ae8261a20f4551df3f900823ab"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p002-b16384.json": {
       "mode": "100644",
-      "git_blob": "64475791f027471b9b4ce21e5459051db1314a63"
+      "git_blob": "4ac30160e97769f07aed2d428a9a5d40c171c34c"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p002-b65536.json": {
       "mode": "100644",
-      "git_blob": "bf0dc6ae99d4723967f8f6bd6a8a495e7a74471f"
+      "git_blob": "6283621e6bdff5f599340e72ca933edfad69a316"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p020-b1024.json": {
       "mode": "100644",
-      "git_blob": "d97b137c6c4e58508696a407d62bf0d23603fb00"
+      "git_blob": "4304bf510d81b124d548913207e450ef150f772e"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p020-b16384.json": {
       "mode": "100644",
-      "git_blob": "0f48af966f1ac0a21efefa60fa7be9af64370555"
+      "git_blob": "8618412b2550d5e8ae1e6532d781986b3cad44d1"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p020-b65536.json": {
       "mode": "100644",
-      "git_blob": "507da4f6697739b7e342042c0a90cbc587d9881e"
+      "git_blob": "a196b7d4dd08dbf0eb8c3d5ee8420165e6a839dc"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p100-b1024.json": {
       "mode": "100644",
-      "git_blob": "f33adbb72d8e065012e95d0ce2fdce5872b1f29d"
+      "git_blob": "7964517a61f0f7d63d902a75e317f37f00c2ed24"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p100-b16384.json": {
       "mode": "100644",
-      "git_blob": "794548c14afd6be7fa72846fa5bc68defe1c0a98"
+      "git_blob": "4b212547f6103bc8c2210fdb5169ee320ba8095f"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p100-b65536.json": {
       "mode": "100644",
-      "git_blob": "17256af5929342722f0eed321ec4ff6655e37da9"
+      "git_blob": "e724dd55541a8ccb288f3c80d7e69908c8dd1d95"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r3-p020-b16384.json": {
       "mode": "100644",
-      "git_blob": "3cb483fb8209cd5eff3bc49dfc25df131a5d4074"
+      "git_blob": "48dbb86bcf3f81b9fd93223e61d9907eda08c811"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d5r3-p020-b16384.json": {
       "mode": "100644",
-      "git_blob": "b886805c404dbfc07054d216a13f969035c772af"
+      "git_blob": "e4807bc95705c8160a7e2f78419a791ef795d091"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-eviction-wires24.json": {
       "mode": "100644",
-      "git_blob": "d3ae3b895dccad13c73e4c4bd79d32a65a1ea233"
+      "git_blob": "cf288ae6c36e34251bc0440689c626b516e981a6"
     },
     "benchmarks/atom_loss/readiness/resources/raw/mle-d3r2-p002-b1024.json": {
       "mode": "100644",
-      "git_blob": "f58fd8024155f721f3030a31ec9f80b0c406b7bb"
+      "git_blob": "c8a588fdf1935d7724d6ce829a7616fa60006680"
     },
     "benchmarks/atom_loss/readiness/resources/raw/mle-d3r2-p002-b16384.json": {
       "mode": "100644",
-      "git_blob": "e07de062ef55216e3a20ef9adf4c68bcf2d2ce8a"
+      "git_blob": "40266660c112eea51607c16d3ff2d3bc843cb0cc"
     },
     "benchmarks/atom_loss/readiness/resources/raw/mle-eviction-wires24.json": {
       "mode": "100644",
-      "git_blob": "bdde18c512ae949f26ded0789c83248bb4f6da67"
+      "git_blob": "6466487a7abc4eda6ec91f07dd3ec8eb69619647"
     },
     "benchmarks/atom_loss/readiness/resources/report.json": {
       "mode": "100644",
-      "git_blob": "c5e72a8dbc587f95b47b034befbbe2c597ac5c3e"
+      "git_blob": "a0f10c2b356fa56f371a6ed601748c8fa1989669"
     },
     "benchmarks/atom_loss/readiness/resources/report.md": {
       "mode": "100644",
-      "git_blob": "b8fff605df09e4deffa7a1f3e69129b65310b07e"
+      "git_blob": "f04b272c58fac48ff5f20438dad55910b386f8b9"
     },
     "benchmarks/atom_loss/readiness_correctness.py": {
       "mode": "100644",
@@ -2081,7 +2081,7 @@
     },
     "rstim/src/near_clifford.rs": {
       "mode": "100644",
-      "git_blob": "bd2a8d4496a3d0b193857856ff522ba3cabccfb6"
+      "git_blob": "6de780cb4f3a04a6362dd851af26b0e74b65311b"
     },
     "rstim/src/operations.rs": {
       "mode": "100644",
@@ -2729,7 +2729,7 @@
     },
     "rstim/tests/near_clifford_batch.rs": {
       "mode": "100644",
-      "git_blob": "444806854cf30adb904a6240fdf7bab0790b30c8"
+      "git_blob": "da18c2dc0eb072f47ab73642c6942470f12aabb7"
     },
     "rstim/tests/near_clifford_circuit.rs": {
       "mode": "100644",
@@ -2749,7 +2749,7 @@
     },
     "rstim/tests/near_clifford_terminal.rs": {
       "mode": "100644",
-      "git_blob": "61263f4c1c3468b95f7f569c6dc1e7c53cf15029"
+      "git_blob": "d3dfe8872ba7d9b25483dcad53ff4414d2167753"
     },
     "rstim/tests/noise.rs": {
       "mode": "100644",
@@ -3160,7 +3160,7 @@
       "git_blob": "744fef173e94e76704a1e86265093ceb464a2fab"
     }
   },
-  "input_digest": "339e86d7d97e303095f64a30cc14b3e2539af3f07a30dd31e7009d695b63c9f2",
+  "input_digest": "8025832b69a8d47b20241e29ee1a019a1fda7cac2243106d18f6cd0b87e22e1b",
   "build_commands": [
     [
       "cargo",
@@ -3193,17 +3193,17 @@
   ],
   "build_policy": "isolated-cargo-home; allowlisted-environment; no-external-ancestor-config-v3",
   "binaries": {
-    "target/release/rustqec": "b53fb1e32d76567e062de5102ce350f53287ae378fcc7e964c587ef2b0e2d0ac",
-    "target/release/examples/export_matching_benchmark": "ee6b4d38beb861dca87e1c8ba4c4121130f641a69831af8fdfba99c302721649",
-    "target/release/examples/export_decoder_oracle": "8f5428912ee75d803fb86e61bb79d634c99dad202b502102f1bfeb55c8163b75",
-    "target/release/examples/offline_matching_benchmark": "225e8b226276a62f26587ff411c99998e2703c982dc0f50637f7ce6afc2287c0",
-    "target/release/examples/atom_loss_sampling_benchmark": "256c8b18cfd7657895e8bebc3cb2e12cd1f3178a9f78e286bc7e3f5a0f81174d"
+    "target/release/rustqec": "251c0a7d3ba55ebc5878fbc56cf54da4c7d51e5d7a1d15f3f40e3f1806ff021b",
+    "target/release/examples/export_matching_benchmark": "29e68780dfde0694198aaaadd1f433c5b714021ee2ac477be2f2725677139b06",
+    "target/release/examples/export_decoder_oracle": "dacf2e90cb15060a3384d8c18356b16e47a25bb12e5b7e977ffa0b518a2ac513",
+    "target/release/examples/offline_matching_benchmark": "4f62747a35ebdfdc82adec0e43da68a06ffe0138d134c6165c39d30069ba58be",
+    "target/release/examples/atom_loss_sampling_benchmark": "ffa60b9e8ede30e7298850639e9d584323f0a66fde426fd8825f981a0be75aa8"
   },
   "build_environment": {
-    "PATH": "/Users/nzy/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/TeX/texbin:/opt/homebrew/bin:/Users/nzy/.codex/tmp/arg0/codex-arg03g0zh1:/Users/nzy/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/Users/nzy/.kimi-code/bin:/Users/nzy/.juliaup/bin:/Users/nzy/.local/bin:/Users/nzy/.local/gurobi1302/Library/gurobi1302/macos_universal2/bin:/Users/nzy/.local/typst-cli/bin:/opt/homebrew/sbin:/Users/nzy/.cargo/bin:/Users/nzy/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Applications/ChatGPT.app/Contents/Resources",
+    "PATH": "/Users/nzy/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/TeX/texbin:/opt/homebrew/bin:/Users/nzy/.codex/tmp/arg0/codex-arg0QtfZlB:/Users/nzy/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/Users/nzy/.kimi-code/bin:/Users/nzy/.juliaup/bin:/Users/nzy/.local/bin:/Users/nzy/.local/gurobi1302/Library/gurobi1302/macos_universal2/bin:/Users/nzy/.local/typst-cli/bin:/opt/homebrew/sbin:/Users/nzy/.cargo/bin:/Users/nzy/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Applications/ChatGPT.app/Contents/Resources",
     "HOME": "/Users/nzy",
     "TMPDIR": "/var/folders/dn/vkst__210t7dsflfgbt4f4n40000gn/T/",
-    "CARGO_HOME": "/private/tmp/near-clifford-pr752-final-evidence-work/cargo-home",
+    "CARGO_HOME": "/private/tmp/rstim-near-next-evidence-work/cargo-home",
     "LANG": "C",
     "LC_ALL": "C",
     "OMP_NUM_THREADS": "1",
