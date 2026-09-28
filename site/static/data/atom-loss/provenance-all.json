@@ -1,25 +1,25 @@
 {
-  "source_commit": "1447a1960399e4b91feec7cca9657f81b653d49e",
+  "source_commit": "0e38d7cb47c1e957093bdbd7d8bcac2ec9205f66",
   "working_tree_dirty": false,
-  "input_digest": "c00bc0b25c8486d968dd1b81b950006638e6f5d7fdc805c2cea5bd32afc2e3aa",
-  "started_utc": "2026-09-28T03:50:33.151761+00:00",
+  "input_digest": "b15357ecf1b4783f9b8b85ceed47011f36ab08a27f2b0a59ea7d55ca9654d3f0",
+  "started_utc": "2026-09-28T05:29:58.223347+00:00",
   "command": [
-    "/Users/nzy/.codex/worktrees/atom-loss-evidence-pr756-v2/rstim/benchmarks/atom_loss/run.py",
+    "/Users/nzy/.codex/worktrees/issue-755-merged-evidence/rstim/benchmarks/atom_loss/run.py",
     "--work",
-    "/Users/nzy/rcode/rstim/drafts/pr756-atom-loss-publication-v2-work/timing",
+    "/private/tmp/issue-755-merged-evidence-work/timing",
     "--out",
-    "/Users/nzy/rcode/rstim/drafts/pr756-atom-loss-publication-v2-out"
+    "/private/tmp/issue-755-merged-evidence-out"
   ],
   "os": "macOS-27.0-arm64-arm-64bit-Mach-O",
   "cpu": "Apple M4",
   "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
   "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11) (Homebrew)\nbinary: rustc\ncommit-hash: 01f6ddf7588f42ae2d7eb0a2f21d44e8e96674cf\ncommit-date: 2026-02-11\nhost: aarch64-apple-darwin\nrelease: 1.93.1\nLLVM version: 21.1.8\n",
   "binaries": {
-    "target/release/rustqec": "1dc1d0dd94a58c1d29fb740a68f27fd91b72d5d37dea2209e852c825abca9ca5",
-    "target/release/examples/export_matching_benchmark": "d977f94ae319f867f126dbd55d8b19c7a5c3403ad01e802aea7c5e118e32ea2f",
-    "target/release/examples/export_decoder_oracle": "6b069451f77f214877d69205ec893c5fafc71272fdf53bf2e9238a1c7f6d46b1",
-    "target/release/examples/offline_matching_benchmark": "39678aceb2af98ed528d50032fcb31987cfe7255589f78083f5d0f6cfb6b471a",
-    "target/release/examples/atom_loss_sampling_benchmark": "ce30588ec568863ca4f67e5fd3fee77ac8267f567004a077825299e9e2fea9d1"
+    "target/release/rustqec": "e317c48917b1c29503bc7ba09330aa7b856d380c382792a248f6ed83dd1599ae",
+    "target/release/examples/export_matching_benchmark": "41c8bb95b39d63417e1fcc1e878fd273d4a0874dbc781ef09c909315c866c37c",
+    "target/release/examples/export_decoder_oracle": "fdb6f7f041eb7ba16bd942d3adf8f4511e16a10de64f0dd2a3176475a18e653c",
+    "target/release/examples/offline_matching_benchmark": "1546cb06e36038892a0ed82d843ee6a63c4213b53b0b74ea58373b35630574f1",
+    "target/release/examples/atom_loss_sampling_benchmark": "0c1be15f5fa283b44f6ea4436fefde3e325f157042e6db673f460ad00410c94f"
   },
   "dependencies": {
     "stim": "1.16.0",

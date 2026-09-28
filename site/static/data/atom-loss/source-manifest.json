@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_commit": "1447a1960399e4b91feec7cca9657f81b653d49e",
+  "source_commit": "0e38d7cb47c1e957093bdbd7d8bcac2ec9205f66",
   "working_tree_dirty": false,
   "inputs": {
     ".github/workflows/atom-loss-reference.yml": {
@@ -325,7 +325,7 @@
     },
     "qec-code/README.md": {
       "mode": "100644",
-      "git_blob": "c97d18eb2a25a26524f88a3762820686bedb773f"
+      "git_blob": "4fbb56c32a14189e6a8b2a139ee056b21cdc4782"
     },
     "qec-code/doc/apm_css.md": {
       "mode": "100644",
@@ -362,6 +362,10 @@
     "qec-code/doc/regular_classical.md": {
       "mode": "100644",
       "git_blob": "6ab22e14839fe283510f5ae70e42dfc0f0f1ad3a"
+    },
+    "qec-code/examples/signed_stabilizer.rs": {
+      "mode": "100644",
+      "git_blob": "dc0ca0c5551d91fcd92635a4c758e21cd48f5d5c"
     },
     "qec-code/src/binary.rs": {
       "mode": "100644",
@@ -473,7 +477,7 @@
     },
     "qec-code/src/lib.rs": {
       "mode": "100644",
-      "git_blob": "ac6b159515f6ff97d65b3a96f93e49e5d680a388"
+      "git_blob": "b19aeaaadfc09b9603a5ef93e01e1c44497730ae"
     },
     "qec-code/src/lifted_product.rs": {
       "mode": "100644",
@@ -494,6 +498,10 @@
     "qec-code/src/pauli.rs": {
       "mode": "100644",
       "git_blob": "d270575c12718a1b639f26f963ab645d97df3d41"
+    },
+    "qec-code/src/phased_pauli.rs": {
+      "mode": "100644",
+      "git_blob": "a3327404c2d2e518e59c9cf948d316f8137deef3"
     },
     "qec-code/src/regular_classical.rs": {
       "mode": "100644",
@@ -742,6 +750,10 @@
     "qec-code/tests/packed_gf2_api.rs": {
       "mode": "100644",
       "git_blob": "84c54daa20279e65afcc8a67457be30289df19a3"
+    },
+    "qec-code/tests/phased_pauli.rs": {
+      "mode": "100644",
+      "git_blob": "7a9647d58d81a953b9f952da7c144f910d3e48c6"
     },
     "qec-code/tests/quantum_tanner_cli.rs": {
       "mode": "100644",
@@ -3160,7 +3172,7 @@
       "git_blob": "744fef173e94e76704a1e86265093ceb464a2fab"
     }
   },
-  "input_digest": "c00bc0b25c8486d968dd1b81b950006638e6f5d7fdc805c2cea5bd32afc2e3aa",
+  "input_digest": "b15357ecf1b4783f9b8b85ceed47011f36ab08a27f2b0a59ea7d55ca9654d3f0",
   "build_commands": [
     [
       "cargo",
@@ -3193,17 +3205,17 @@
   ],
   "build_policy": "isolated-cargo-home; allowlisted-environment; no-external-ancestor-config-v3",
   "binaries": {
-    "target/release/rustqec": "1dc1d0dd94a58c1d29fb740a68f27fd91b72d5d37dea2209e852c825abca9ca5",
-    "target/release/examples/export_matching_benchmark": "d977f94ae319f867f126dbd55d8b19c7a5c3403ad01e802aea7c5e118e32ea2f",
-    "target/release/examples/export_decoder_oracle": "6b069451f77f214877d69205ec893c5fafc71272fdf53bf2e9238a1c7f6d46b1",
-    "target/release/examples/offline_matching_benchmark": "39678aceb2af98ed528d50032fcb31987cfe7255589f78083f5d0f6cfb6b471a",
-    "target/release/examples/atom_loss_sampling_benchmark": "ce30588ec568863ca4f67e5fd3fee77ac8267f567004a077825299e9e2fea9d1"
+    "target/release/rustqec": "e317c48917b1c29503bc7ba09330aa7b856d380c382792a248f6ed83dd1599ae",
+    "target/release/examples/export_matching_benchmark": "41c8bb95b39d63417e1fcc1e878fd273d4a0874dbc781ef09c909315c866c37c",
+    "target/release/examples/export_decoder_oracle": "fdb6f7f041eb7ba16bd942d3adf8f4511e16a10de64f0dd2a3176475a18e653c",
+    "target/release/examples/offline_matching_benchmark": "1546cb06e36038892a0ed82d843ee6a63c4213b53b0b74ea58373b35630574f1",
+    "target/release/examples/atom_loss_sampling_benchmark": "0c1be15f5fa283b44f6ea4436fefde3e325f157042e6db673f460ad00410c94f"
   },
   "build_environment": {
     "PATH": "/Users/nzy/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/TeX/texbin:/opt/homebrew/bin:/Applications/ChatGPT.app/Contents/Resources/codex-cli/codex-path:/Users/nzy/.codex/tmp/arg0/codex-arg042lY2P:/Users/nzy/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/Users/nzy/.kimi-code/bin:/Users/nzy/.juliaup/bin:/Users/nzy/.local/bin:/Users/nzy/.local/gurobi1302/Library/gurobi1302/macos_universal2/bin:/Users/nzy/.local/typst-cli/bin:/opt/homebrew/sbin:/Users/nzy/.cargo/bin:/Users/nzy/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Applications/ChatGPT.app/Contents/Resources:/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS",
     "HOME": "/Users/nzy",
     "TMPDIR": "/var/folders/dn/vkst__210t7dsflfgbt4f4n40000gn/T/",
-    "CARGO_HOME": "/Users/nzy/rcode/rstim/drafts/pr756-atom-loss-publication-v2-work/cargo-home",
+    "CARGO_HOME": "/private/tmp/issue-755-merged-evidence-work/cargo-home",
     "LANG": "C",
     "LC_ALL": "C",
     "OMP_NUM_THREADS": "1",
