@@ -1552,7 +1552,7 @@ L -4 -0
    </g>
    <g id="LineCollection_9">
     <path d="M 580.147958 307.637578
-L 581.196673 307.637578
+L 581.196672 307.637578
 " clip-path="url(#peccfe25e40)" style="fill: none; stroke: #754c91; stroke-width: 1.5"/>
    </g>
    <g id="LineCollection_10">
@@ -1572,7 +1572,7 @@ L 0 -4
    </g>
    <g id="line2d_65">
     <g clip-path="url(#peccfe25e40)">
-     <use xlink:href="#m8fd88a484a" x="581.196673" y="307.637578" style="fill: #754c91; stroke: #754c91"/>
+     <use xlink:href="#m8fd88a484a" x="581.196672" y="307.637578" style="fill: #754c91; stroke: #754c91"/>
     </g>
    </g>
    <g id="line2d_66">
