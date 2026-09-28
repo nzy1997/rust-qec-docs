@@ -1,25 +1,25 @@
 {
-  "source_commit": "3089d04a1ba73759a0920ba71151478fb492063d",
+  "source_commit": "3c6f8939cabef22ab6179813fa5a58c4974c173c",
   "working_tree_dirty": false,
-  "input_digest": "8025832b69a8d47b20241e29ee1a019a1fda7cac2243106d18f6cd0b87e22e1b",
-  "started_utc": "2026-09-24T07:50:22.448888+00:00",
+  "input_digest": "0b551c69d81aba9a026862bb1226e25aac96b33dc1b457c87c0086f0d22f1999",
+  "started_utc": "2026-09-28T04:37:17.019456+00:00",
   "command": [
-    "/private/tmp/rstim-near-next-evidence-source/benchmarks/atom_loss/accuracy_seeds.py",
+    "/Users/nzy/.codex/worktrees/issue-755-evidence-source/rstim/benchmarks/atom_loss/accuracy_seeds.py",
     "--work",
-    "/private/tmp/rstim-near-next-evidence-work/seeds",
+    "/private/tmp/issue-755-evidence-work/seeds",
     "--out",
-    "/private/tmp/rstim-near-next-evidence-output"
+    "/private/tmp/issue-755-evidence-out"
   ],
-  "os": "macOS-27.0-arm64-arm-64bit",
+  "os": "macOS-27.0-arm64-arm-64bit-Mach-O",
   "cpu": "Apple M4",
-  "python": "3.12.13 (main, Mar  3 2026, 15:35:03) [Clang 21.1.4 ]",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
   "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11) (Homebrew)\nbinary: rustc\ncommit-hash: 01f6ddf7588f42ae2d7eb0a2f21d44e8e96674cf\ncommit-date: 2026-02-11\nhost: aarch64-apple-darwin\nrelease: 1.93.1\nLLVM version: 21.1.8\n",
   "binaries": {
-    "target/release/rustqec": "251c0a7d3ba55ebc5878fbc56cf54da4c7d51e5d7a1d15f3f40e3f1806ff021b",
-    "target/release/examples/export_matching_benchmark": "29e68780dfde0694198aaaadd1f433c5b714021ee2ac477be2f2725677139b06",
-    "target/release/examples/export_decoder_oracle": "dacf2e90cb15060a3384d8c18356b16e47a25bb12e5b7e977ffa0b518a2ac513",
-    "target/release/examples/offline_matching_benchmark": "4f62747a35ebdfdc82adec0e43da68a06ffe0138d134c6165c39d30069ba58be",
-    "target/release/examples/atom_loss_sampling_benchmark": "ffa60b9e8ede30e7298850639e9d584323f0a66fde426fd8825f981a0be75aa8"
+    "target/release/rustqec": "b90df212176c1c1acef28208d3221c775364219cd0ee1a4a2b307f3b20b8207e",
+    "target/release/examples/export_matching_benchmark": "615d32214d10d65a703f1d6b49a8f842dd3d26f9e368f6aaa6981b92bfa93b8c",
+    "target/release/examples/export_decoder_oracle": "2bb22ead679ac2f3f46652add5e2e0992c018bbf7766553ed2024485359e3c5d",
+    "target/release/examples/offline_matching_benchmark": "412429d83f8928ba5872eb9a15a74f81f73cb7587169f30aa6968223a52505c8",
+    "target/release/examples/atom_loss_sampling_benchmark": "aed518d8d705487fe0cc046d30cea05e86d297a9b65bcc2922a8a4f5ad65e475"
   },
   "dependencies": {
     "stim": "1.16.0",
