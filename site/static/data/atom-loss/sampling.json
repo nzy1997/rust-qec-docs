@@ -8,22 +8,22 @@
     "circuit_sha256": "0e0bcf7217d77f863c2632f9d6d5e9822d7ea26954076cc45dae44cae415b0b4",
     "rust": {
       "backend": "RustQEC auto sampler; loss-visible records",
-      "parse_seconds": 0.000478917,
+      "parse_seconds": 0.000449292,
       "records": [
         {
           "bytes": 2304,
-          "packing_seconds": 1.583e-06,
-          "sample_seconds": 0.010373166
+          "packing_seconds": 1.875e-06,
+          "sample_seconds": 0.010293625
         },
         {
           "bytes": 2304,
-          "packing_seconds": 1.5e-06,
-          "sample_seconds": 0.009102958
+          "packing_seconds": 2.167e-06,
+          "sample_seconds": 0.00899475
         },
         {
           "bytes": 2304,
-          "packing_seconds": 1.208e-06,
-          "sample_seconds": 0.008158542
+          "packing_seconds": 1.541e-06,
+          "sample_seconds": 0.008060167
         }
       ],
       "shots": 256,
@@ -34,18 +34,18 @@
       "warmups": 1,
       "records": [
         {
-          "sample_seconds": 0.015138666960410774,
-          "packing_seconds": 6.209011189639568e-06,
+          "sample_seconds": 0.01542479102499783,
+          "packing_seconds": 3.0830269679427147e-06,
           "bytes": 2304
         },
         {
-          "sample_seconds": 0.01648770901374519,
-          "packing_seconds": 2.624932676553726e-06,
+          "sample_seconds": 0.01679537503514439,
+          "packing_seconds": 3.00002284348011e-06,
           "bytes": 2304
         },
         {
-          "sample_seconds": 0.015698499977588654,
-          "packing_seconds": 2.834014594554901e-06,
+          "sample_seconds": 0.01580391707830131,
+          "packing_seconds": 2.374988980591297e-06,
           "bytes": 2304
         }
       ]
@@ -60,22 +60,22 @@
     "circuit_sha256": "64f6f945a01addce805c92e8094659780439e51d6bb289fa16dfb6cbb8393913",
     "rust": {
       "backend": "RustQEC auto sampler; loss-visible records",
-      "parse_seconds": 0.000355583,
+      "parse_seconds": 0.000353417,
       "records": [
         {
           "bytes": 9472,
-          "packing_seconds": 3.167e-06,
-          "sample_seconds": 0.054692209
+          "packing_seconds": 3.042e-06,
+          "sample_seconds": 0.054757459
         },
         {
           "bytes": 9472,
-          "packing_seconds": 2.75e-06,
-          "sample_seconds": 0.054603959
+          "packing_seconds": 2.666e-06,
+          "sample_seconds": 0.054546125
         },
         {
           "bytes": 9472,
-          "packing_seconds": 3.458e-06,
-          "sample_seconds": 0.054876625
+          "packing_seconds": 4.083e-06,
+          "sample_seconds": 0.05495875
         }
       ],
       "shots": 256,
@@ -86,18 +86,18 @@
       "warmups": 1,
       "records": [
         {
-          "sample_seconds": 0.18224437499884516,
-          "packing_seconds": 8.792034350335598e-06,
+          "sample_seconds": 0.18343879096210003,
+          "packing_seconds": 6.334041245281696e-06,
           "bytes": 9472
         },
         {
-          "sample_seconds": 0.18151433300226927,
-          "packing_seconds": 6.375019438564777e-06,
+          "sample_seconds": 0.18362045800313354,
+          "packing_seconds": 7.1249669417738914e-06,
           "bytes": 9472
         },
         {
-          "sample_seconds": 0.17560962494462729,
-          "packing_seconds": 5.915993824601173e-06,
+          "sample_seconds": 0.17684091697447002,
+          "packing_seconds": 6.916932761669159e-06,
           "bytes": 9472
         }
       ]
@@ -112,22 +112,22 @@
     "circuit_sha256": "58f59a53d2166bd9fbc74afa4a001c66cc4c35da2f8b758eca076007494b91cc",
     "rust": {
       "backend": "RustQEC auto sampler; loss-visible records",
-      "parse_seconds": 0.000764375,
+      "parse_seconds": 0.000828958,
       "records": [
         {
           "bytes": 24832,
-          "packing_seconds": 6.583e-06,
-          "sample_seconds": 0.258199584
+          "packing_seconds": 6.667e-06,
+          "sample_seconds": 0.258919
         },
         {
           "bytes": 24832,
-          "packing_seconds": 6.084e-06,
-          "sample_seconds": 0.258231959
+          "packing_seconds": 7e-06,
+          "sample_seconds": 0.26002775
         },
         {
           "bytes": 24832,
-          "packing_seconds": 6.625e-06,
-          "sample_seconds": 0.258802542
+          "packing_seconds": 7.084e-06,
+          "sample_seconds": 0.259756292
         }
       ],
       "shots": 256,
@@ -138,18 +138,18 @@
       "warmups": 1,
       "records": [
         {
-          "sample_seconds": 0.601487125037238,
-          "packing_seconds": 1.0874937288463116e-05,
+          "sample_seconds": 0.6015050830319524,
+          "packing_seconds": 1.13749410957098e-05,
           "bytes": 24832
         },
         {
-          "sample_seconds": 0.6017294590128586,
-          "packing_seconds": 1.2750038877129555e-05,
+          "sample_seconds": 0.6017814999213442,
+          "packing_seconds": 1.2208009138703346e-05,
           "bytes": 24832
         },
         {
-          "sample_seconds": 0.6015682080760598,
-          "packing_seconds": 1.058308407664299e-05,
+          "sample_seconds": 0.6015185000142083,
+          "packing_seconds": 1.0916031897068024e-05,
           "bytes": 24832
         }
       ]
