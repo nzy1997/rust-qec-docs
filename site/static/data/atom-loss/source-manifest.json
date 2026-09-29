@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source_commit": "df011c55f467e45f2cabfeca13cc8850953fab5a",
+  "source_commit": "97ba19c2210bc202cc6698988f21044bd54580c4",
   "working_tree_dirty": false,
   "inputs": {
     ".github/workflows/atom-loss-reference.yml": {
@@ -97,91 +97,91 @@
     },
     "benchmarks/atom_loss/readiness/resources/manifest.json": {
       "mode": "100644",
-      "git_blob": "69df9f7539a64f4c6cb2a37f11862c9560d18345"
+      "git_blob": "2b251b6007fc269b1778701b10340e5a4d8e33de"
     },
     "benchmarks/atom_loss/readiness/resources/raw/fail-mle-candidate-limit.json": {
       "mode": "100644",
-      "git_blob": "2630f46e7b5a1d2e29aa037fc7680d6d758caa95"
+      "git_blob": "786167702d85851ef8f26aae6b3cf385ccada613"
     },
     "benchmarks/atom_loss/readiness/resources/raw/fail-mle-infeasible.json": {
       "mode": "100644",
-      "git_blob": "7f31cdf09e8223c3ad2c6789b57492bb12d18810"
+      "git_blob": "39918bf0ac04da2a735319f1e9a3b50b72a9063f"
     },
     "benchmarks/atom_loss/readiness/resources/raw/fail-mle-solve-timeout.json": {
       "mode": "100644",
-      "git_blob": "4c2a49e23b836565a0a13bc827f35161a32eaaef"
+      "git_blob": "dc49600b118d88853824bbeedd0d267cefcc3ac2"
     },
     "benchmarks/atom_loss/readiness/resources/raw/fail-stale-output-overwrite.json": {
       "mode": "100644",
-      "git_blob": "d074c8e89df03ac4550f46c4dc3f9243b1c24195"
+      "git_blob": "663eabae261b780b93cfb2ec637f92ecfb3114d9"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p002-b1024.json": {
       "mode": "100644",
-      "git_blob": "cb644f1e7adfb5588921378d5b94809b14ee2dfe"
+      "git_blob": "df29a7a384797b6808efb09b882bde9a552b7627"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p002-b16384.json": {
       "mode": "100644",
-      "git_blob": "45c66b84dd9c792985479e92c2985468b7c5d501"
+      "git_blob": "86388a2721926b532ada0d7e7954f704339fe3d2"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p002-b65536.json": {
       "mode": "100644",
-      "git_blob": "c9bd6fc060b04c50c71d63732a0521611e2ec2fa"
+      "git_blob": "cbd245f3b6c84ee5e3da92cbea44da89dfbf4dff"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p020-b1024.json": {
       "mode": "100644",
-      "git_blob": "47bfc02e745898850e847356534e5e90104dc313"
+      "git_blob": "76f8b1732639fede311167700e4fe5a6b438dc62"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p020-b16384.json": {
       "mode": "100644",
-      "git_blob": "74c5fc22541cbaab4a29f6f823fb073e82070ba8"
+      "git_blob": "51b41400145b1f67b8fa50dfd29b3f16b53ca9ef"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p020-b65536.json": {
       "mode": "100644",
-      "git_blob": "88e3955078d9d5d40e626535d2cef4ec65b6b56a"
+      "git_blob": "cb198354066088440910f4a3b1ecff3ef9ce30bf"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p100-b1024.json": {
       "mode": "100644",
-      "git_blob": "4bee0bd7c57b074877d1d04b481a95b9687c11d5"
+      "git_blob": "da1c6cc44b95b8338d5cec0f7faa0a3253020f95"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p100-b16384.json": {
       "mode": "100644",
-      "git_blob": "0bf6e46f599eee97f7dc6ae8a363442963e97193"
+      "git_blob": "b9bd100781fba455cfc1dd897bbfcdd0f699d143"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r2-p100-b65536.json": {
       "mode": "100644",
-      "git_blob": "d63328d1db89eaa47331b8761716f3c3146e325f"
+      "git_blob": "1b45c1bd14a66b932b4c38721415e7e395e6bb21"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d3r3-p020-b16384.json": {
       "mode": "100644",
-      "git_blob": "b27cebd8acf2865ee808ffab76958ef83cad5222"
+      "git_blob": "55d759ba9665b0a3e1bb7464c685ff736e1ff238"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-d5r3-p020-b16384.json": {
       "mode": "100644",
-      "git_blob": "ca5ed5e1264c74476a817f3fe267b19a66891afd"
+      "git_blob": "9dbe3e4db700507984b06b8a9a968450d9fff099"
     },
     "benchmarks/atom_loss/readiness/resources/raw/matching-eviction-wires24.json": {
       "mode": "100644",
-      "git_blob": "fec9155444339abd01f70ed13ef89efecc2675e2"
+      "git_blob": "8bbdecbe9116b95c18a3609e55eeced7e95a15b5"
     },
     "benchmarks/atom_loss/readiness/resources/raw/mle-d3r2-p002-b1024.json": {
       "mode": "100644",
-      "git_blob": "65ce99f02d36b43983458ab9cec233ecb3c30bce"
+      "git_blob": "0a11cef4ddc876fe58676f0aa7ff082f52a16970"
     },
     "benchmarks/atom_loss/readiness/resources/raw/mle-d3r2-p002-b16384.json": {
       "mode": "100644",
-      "git_blob": "29cd65ef6b36ee22bbc0599f818eef75d3e680e1"
+      "git_blob": "195d60e0914b85ea05636fabc818331ee0f74c2e"
     },
     "benchmarks/atom_loss/readiness/resources/raw/mle-eviction-wires24.json": {
       "mode": "100644",
-      "git_blob": "b9d77bdd1b55a79af65b2878223b728216af0d41"
+      "git_blob": "c1aa6784ed1d8e4496890aefbe3666d89bd9846a"
     },
     "benchmarks/atom_loss/readiness/resources/report.json": {
       "mode": "100644",
-      "git_blob": "6744b032fe2645d43e3dc72d841498e1ff4b5fe9"
+      "git_blob": "821ae15c672c3e68472af4aa4b92f5e59f95cb99"
     },
     "benchmarks/atom_loss/readiness/resources/report.md": {
       "mode": "100644",
-      "git_blob": "09bbe2bb874cdcb33f9f2b732b01ce3f5ead2089"
+      "git_blob": "d1276fdbc95346f1297f3212a30b24b47c90d4ce"
     },
     "benchmarks/atom_loss/readiness_correctness.py": {
       "mode": "100644",
@@ -1045,7 +1045,7 @@
     },
     "renvelope/README.md": {
       "mode": "100644",
-      "git_blob": "49a167ec2b5e3979fbab2df173344572f4198730"
+      "git_blob": "828ede8bd7eb0fb97cb6c19c91e2c09d7b06d3ba"
     },
     "renvelope/cases/bridge_loss_flag_detector.stim": {
       "mode": "100644",
@@ -1089,11 +1089,11 @@
     },
     "renvelope/src/matching.rs": {
       "mode": "100644",
-      "git_blob": "c62a2fca4b12b53d0e43583e3f271260e1730092"
+      "git_blob": "f3fbe1abb96e8868d8dc7f175aab50eef300f59a"
     },
     "renvelope/src/prepare.rs": {
       "mode": "100644",
-      "git_blob": "a5b7bb5841d868aa4701f690b8d08d117393ec03"
+      "git_blob": "cc6e722b6bcd25061da3c8c8b753b394a18e6f8a"
     },
     "renvelope/src/schema.rs": {
       "mode": "100644",
@@ -1102,6 +1102,10 @@
     "renvelope/tests/cli.rs": {
       "mode": "100644",
       "git_blob": "e4d3fde2da389ec7cee9a4d9ab9ca439e3bfcd5f"
+    },
+    "renvelope/tests/matching_parallel.rs": {
+      "mode": "100644",
+      "git_blob": "492ac0e0dbb06d0c7358221bcbcb3fa051a92054"
     },
     "rilpqec/Cargo.toml": {
       "mode": "100644",
@@ -3053,7 +3057,7 @@
     },
     "rustqec-cli/src/decode.rs": {
       "mode": "100644",
-      "git_blob": "d769e5c90a1f877e89a65a3a289423098f479653"
+      "git_blob": "1fba06457684bac50985677accc53ec4f9fe36cd"
     },
     "rustqec-cli/src/decode/benchmark.rs": {
       "mode": "100644",
@@ -3061,7 +3065,7 @@
     },
     "rustqec-cli/src/decode/compiler.rs": {
       "mode": "100644",
-      "git_blob": "f2f8d411f3b823cc45dc2aad84c483172159fb09"
+      "git_blob": "bd8373b5586309b5b2152e698bd83dc401cd5006"
     },
     "rustqec-cli/src/decode/dataset.rs": {
       "mode": "100644",
@@ -3069,7 +3073,7 @@
     },
     "rustqec-cli/src/decode/matching.rs": {
       "mode": "100644",
-      "git_blob": "350dc746d7cab1558332259b26be08b08335b6d8"
+      "git_blob": "d1efe1f82af1234e77650771962c98ae284f2ca1"
     },
     "rustqec-cli/src/decode/mle.rs": {
       "mode": "100644",
@@ -3172,7 +3176,7 @@
       "git_blob": "744fef173e94e76704a1e86265093ceb464a2fab"
     }
   },
-  "input_digest": "2f7d3c9c7c0281ec0791f60c2f54d569b0c1954c8b79c3e932755eddea52f6ec",
+  "input_digest": "5c3d154feae35b42e3e597156000cc99b3d05e3f7f253f0ef519ba5bea514e6d",
   "build_commands": [
     [
       "cargo",
@@ -3205,23 +3209,24 @@
   ],
   "build_policy": "isolated-cargo-home; allowlisted-environment; no-external-ancestor-config-v3",
   "binaries": {
-    "target/release/rustqec": "c996a29aebc6c7a0fbaa944c6501bc86938f400b452e24021e28bbcf75626540",
-    "target/release/examples/export_matching_benchmark": "8ba6bd4c7b8bc50399fc4d0e86cf51214feaad70afb6a03464ad926377a5bd99",
-    "target/release/examples/export_decoder_oracle": "25f2ceab1f22bbc17867dda656b15a79e801d8daa7792ff00a72689545a06da8",
-    "target/release/examples/offline_matching_benchmark": "4752edd49df8d1b71851b4fa2c764e7fd5ed2a5ed32833573c703d85ae8469a7",
-    "target/release/examples/atom_loss_sampling_benchmark": "2f63e4f6afb6bcd28b5a72323f87786f4d554dba42d528bddb544b40ec0d26bd"
+    "target/release/rustqec": "8893462d83db886821da094fef68ef4579278ed3209298f7f758fd678ccf67b0",
+    "target/release/examples/export_matching_benchmark": "cd4a46103381b08762fe500f7c00e2a05edc66b90827278dcaf9f5be60a35196",
+    "target/release/examples/export_decoder_oracle": "6e4e219b199135a7ff61e09fab3eb2888f3d2ec10434b177087e3617ce1072b0",
+    "target/release/examples/offline_matching_benchmark": "2991241e5d2d27cc053cca49859aeae0fd2b8b52428d22853da0c58e9fcc0fb6",
+    "target/release/examples/atom_loss_sampling_benchmark": "baa569d517f1f525edd022875a4e6342895c2685ef6c3b3dde533d0e68587d2a"
   },
   "build_environment": {
-    "PATH": "/Users/nzy/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/TeX/texbin:/opt/homebrew/bin:/Applications/ChatGPT.app/Contents/Resources/codex-cli/codex-path:/Users/nzy/.codex/tmp/arg0/codex-arg042lY2P:/Users/nzy/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/Users/nzy/.kimi-code/bin:/Users/nzy/.juliaup/bin:/Users/nzy/.local/bin:/Users/nzy/.local/gurobi1302/Library/gurobi1302/macos_universal2/bin:/Users/nzy/.local/typst-cli/bin:/opt/homebrew/sbin:/Users/nzy/.cargo/bin:/Users/nzy/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Applications/ChatGPT.app/Contents/Resources:/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS",
-    "HOME": "/Users/nzy",
-    "TMPDIR": "/var/folders/dn/vkst__210t7dsflfgbt4f4n40000gn/T/",
-    "CARGO_HOME": "/Users/nzy/.codex/worktrees/near-clifford-profile/rstim/drafts/atom-loss-clean-work-761/cargo-home",
+    "PATH": "/home/nzy/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-21.0.3.9-hotspot/bin:/mnt/c/Program Files/Microsoft/jdk-17.0.9.8-hotspot/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64/:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86/:/mnt/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin/:/mnt/c/Users/TEMP.OMEN9PLUS.004/AppData/Local/Microsoft/WindowsApps",
+    "HOME": "/home/nzy",
+    "LIBCLANG_PATH": "/home/nzy/codex/rust-qec-python-deps-20260922/clang/native",
+    "PYTHONPATH": "/home/nzy/codex/issue760-evidence/python-packages",
+    "CARGO_HOME": "/home/nzy/codex/issue760-evidence/work2/cargo-home",
     "LANG": "C",
     "LC_ALL": "C",
     "OMP_NUM_THREADS": "1",
     "OPENBLAS_NUM_THREADS": "1",
     "RAYON_NUM_THREADS": "1"
   },
-  "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11) (Homebrew)\nbinary: rustc\ncommit-hash: 01f6ddf7588f42ae2d7eb0a2f21d44e8e96674cf\ncommit-date: 2026-02-11\nhost: aarch64-apple-darwin\nrelease: 1.93.1\nLLVM version: 21.1.8\n",
-  "cargo": "cargo 1.93.1 (Homebrew)\n"
+  "rustc": "rustc 1.98.0 (88d9e12ae 2026-08-18)\nbinary: rustc\ncommit-hash: 88d9e12ae178fab0fb5cc050a94da85685d449ea\ncommit-date: 2026-08-18\nhost: x86_64-unknown-linux-gnu\nrelease: 1.98.0\nLLVM version: 22.1.8\n",
+  "cargo": "cargo 1.98.0 (797e8a9bc 2026-08-05)\n"
 }
