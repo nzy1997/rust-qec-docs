@@ -20,3 +20,8 @@ files; this repository contains only the published artifacts.
 The main repository fetches a pinned commit from this repository before site
 builds and evidence checks. Do not edit these files by hand; regenerate them
 from the source repository and update the pinned revision there.
+
+Run `python3 tools/check_artifacts.py` to verify every published artifact listed
+in `ARTIFACTS.sha256`. GitHub Actions runs the same command for pull requests and
+updates to `master`. Source-specific physics and replay checks run in `rust-qec`
+against its pinned artifact revision.
