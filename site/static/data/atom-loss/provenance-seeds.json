@@ -1,25 +1,25 @@
 {
-  "source_commit": "d25229079793dfdf2beb6c67d64492d4f462aa75",
+  "source_commit": "d2692515d89298743fb483f5649f2290dc7a25e4",
   "working_tree_dirty": false,
-  "input_digest": "879015d18527c517f4b4033c3aaf2658262427d0b8a6989949b2747751297178",
-  "started_utc": "2026-10-07T00:39:25.911413+00:00",
+  "input_digest": "7154ab12c22ec41d3d551f7f13bef96f64467a5802e98e49a1078224de67e684",
+  "started_utc": "2026-10-07T05:36:43.277398+00:00",
   "command": [
-    "/Users/nzy/.codex/worktrees/near-clifford-evidence-source/rstim/benchmarks/atom_loss/accuracy_seeds.py",
+    "/Users/nzy/.codex/worktrees/near-clifford-noise-lazy-evidence/rstim/benchmarks/atom_loss/accuracy_seeds.py",
     "--work",
-    "/Users/nzy/.codex/worktrees/near-clifford-sota/rstim/drafts/near-clifford-sota-20261007/atom-loss-r252-work/seeds",
+    "/Users/nzy/.codex/worktrees/near-clifford-noise-lazy-publish/rstim/drafts/noise-lazy-publication-20261007/atomloss-R3-work/seeds",
     "--out",
-    "/Users/nzy/.codex/worktrees/near-clifford-sota/rstim/drafts/near-clifford-sota-20261007/atom-loss-r252-out"
+    "/Users/nzy/.codex/worktrees/near-clifford-noise-lazy-publish/rstim/drafts/noise-lazy-publication-20261007/atomloss-R3-results"
   ],
   "os": "macOS-27.0.1-arm64-arm-64bit",
   "cpu": "Apple M4",
   "python": "3.12.13 (main, Mar  3 2026, 15:35:03) [Clang 21.1.4 ]",
   "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11) (Homebrew)\nbinary: rustc\ncommit-hash: 01f6ddf7588f42ae2d7eb0a2f21d44e8e96674cf\ncommit-date: 2026-02-11\nhost: aarch64-apple-darwin\nrelease: 1.93.1\nLLVM version: 21.1.8\n",
   "binaries": {
-    "target/release/rstim": "85522b0dffa4e3079bda195bb2afafb6e0ac4315dd4e835787066c7ed6464216",
-    "target/release/examples/export_matching_benchmark": "d58a05c0f9bda7b2f11d4d8ae8b83f31b1676e576747ed5f32c7e94106702497",
-    "target/release/examples/export_decoder_oracle": "7b1f2ec2d962f14c90b9608c03c778004869217efd6d4c71e35f0da27fa9dfe1",
-    "target/release/examples/offline_matching_benchmark": "75300ae58e7e280d15be8239145e2a9f4a53b51ebb0c73e721e593b5ce55f3fa",
-    "target/release/examples/atom_loss_sampling_benchmark": "23ef305826f267949bf857c4a899141a724d537f2ecf8e90df67587fd9b9013d"
+    "target/release/rstim": "3a5044e7330c9dd883b86e3daaf7c69734b6d783a29611ac23fe6617d4ebc25a",
+    "target/release/examples/export_matching_benchmark": "23357d72065f099692979412165317a8de73c748e9d66b0958bcf4484a842393",
+    "target/release/examples/export_decoder_oracle": "3d451c59bbce920ca0a4471aedf763ad586333d68c1b54ae0463af64d71757bf",
+    "target/release/examples/offline_matching_benchmark": "bd60f54b705c2fa34736c2a735be42f38498c90c9e5b943fb1240ab6c63dd815",
+    "target/release/examples/atom_loss_sampling_benchmark": "bb042fd3a5a0729bf0b7ccab7b0c5b1381ed463314058be021c7f08ad6d268ae"
   },
   "dependencies": {
     "stim": "1.16.0",
@@ -54,7 +54,7 @@
     "benchmarks/atom_loss/plot.py": "2e36632a15287701f71c3aaa4bf4254911c5bbb4a78460d0a1ad4e5824534d5e",
     "benchmarks/atom_loss/probe_specs.py": "e0670a655d47975d5f2ba4f26a036f0908f5440ae81bb7792803807ccd10ad2c",
     "benchmarks/atom_loss/publish.py": "fc0b2b1bdd92f1aea7466c5c93392b1f9a13a4ce0139f5a0ce396f536db1df39",
-    "benchmarks/atom_loss/readiness/resources/report.md": "1f8ba7d9a624dff35b729e951b0a4db9a4daeb0b6bce91cf5831d8bbffacc794",
+    "benchmarks/atom_loss/readiness/resources/report.md": "2ab2c186e5f46352308c030c7976d60be790b7ffe5e2dbb60732087be3a92bc4",
     "benchmarks/atom_loss/readiness_correctness.py": "f1a0b8bdb80b834113beff7d7c4be6a7f7fee569e7e97d0494d596f4ceef5584",
     "benchmarks/atom_loss/readiness_resources.py": "9bde1c9047a25bc0c6c8845ebc2c2a134aade9911b0ebb33f5fe4f41006a1331",
     "benchmarks/atom_loss/reference.py": "5466f849afa6fe5bcb398a425248defe03af6f06e722da90f3c268e98bb06396",
